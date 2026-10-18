@@ -1,0 +1,1 @@
+.hero .link{display:inline-flex;align-items:center}.arrow-up{position:relative;display:inline-block;width:10px;height:10px;margin-left:9px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor}.arrow-up:after{content:"";position:absolute;width:13px;height:1.5px;right:-1px;top:4px;background:currentColor;transform:rotate(-45deg);transform-origin:right center}
