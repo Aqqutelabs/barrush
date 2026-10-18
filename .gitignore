@@ -1,0 +1,8 @@
+# Project documentation
+*.md
+
+# Mirrored reference website
+/www.epsssecurity.com/
+
+# Local mirrored-session data
+/cookies.txt

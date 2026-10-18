@@ -1,0 +1,9 @@
+.home-page main .rail-section > .rail-stage {
+  position: sticky;
+}
+
+@media (max-width: 800px) {
+  .home-page main .rail-section > .rail-stage {
+    position: relative;
+  }
+}
