@@ -31,7 +31,7 @@ function e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 
     <a class="quote" href="../../contact.html?intent=quote">Request a quote ↗</a>
     <button class="menu-btn" data-menu-btn aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
   </header>
-  <div class="mobile-menu" data-menu><nav><a href="../../index.html">Home</a><a href="../../about.html">About</a><a href="../../logistics.html">Logistics</a><a href="../../contact.html">Contact</a></nav><a class="button" href="../../contact.html?intent=quote">Request a quote ↗</a><a href="tel:+2347030572492">+234 703 057 2492</a></div>
+  <div class="mobile-menu" data-menu><nav><a href="../../index.html">Home</a><a href="../../about.html">About</a><a href="../../logistics.html">Logistics</a><a href="../../contact.html">Contact</a></nav><a class="button" href="../../contact.html?intent=quote">Request a quote ↗</a><a href="https://wa.me/2347030572492" target="_blank" rel="noopener">+234 703 057 2492</a></div>
 
   <main id="main">
     <section class="service-hero shell">
@@ -71,6 +71,6 @@ function e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 
     <section class="service-cta section shell"><p class="eyebrow">Start a conversation</p><h2><?= e($service['cta']) ?>.</h2><div><p>Tell us what the operation requires. We’ll help shape the next step.</p><a class="button" href="../../contact.html?<?= e($query) ?>">Request a quote ↗</a></div></section>
   </main>
 
-  <footer class="footer shell"><img src="../../assets/img/barrush-logo.png" alt="Barrush"><p>Dependable logistics and integrated security support for people, cargo and operations.</p><div><a href="../../about.html">About</a><a href="../../logistics.html">Logistics</a><a href="../../contact.html">Contact</a><a href="../../privacy.html">Privacy</a></div><address><a href="tel:+2347030572492">+234 703 057 2492</a><span>No. 12 Old Obasanjo Road,<br>Port Harcourt, Rivers State, Nigeria</span></address><small>© <span data-year></span> Barrush Multilinks. <b>Always Reliable.</b></small></footer>
+  <footer class="footer shell"><img src="../../assets/img/barrush-logo.png" alt="Barrush"><p>Dependable logistics and integrated security support for people, cargo and operations.</p><div><a href="../../about.html">About</a><a href="../../logistics.html">Logistics</a><a href="../../contact.html">Contact</a><a href="../../privacy.html">Privacy</a></div><address><a href="https://wa.me/2347030572492" target="_blank" rel="noopener">+234 703 057 2492</a><span>12 Olu Obasanjo Road,<br>Port Harcourt, Rivers State, Nigeria</span></address><small>© <span data-year></span> Barrush Multilinks. <b>Always Reliable.</b> <span>Crafted by <a href="https://aqqqute.com" target="_blank" rel="noopener">Aqqute Labs</a>.</span></small></footer>
 </body>
 </html>

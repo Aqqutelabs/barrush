@@ -211,7 +211,7 @@ function initContactDetails(){
   const status=document.querySelector('[data-status]');
   if(status)status.innerHTML='Online delivery is being configured. For immediate assistance, email <a href="mailto:Sales@barrush.com.ng">Sales@barrush.com.ng</a>.';
   form?.addEventListener('submit',()=>{
-    if(form.checkValidity()&&status)status.innerHTML='Online delivery is not connected yet. Please email <a href="mailto:Sales@barrush.com.ng">Sales@barrush.com.ng</a> or call <a href="tel:+2347030572492">+234 703 057 2492</a>.';
+    if(form.checkValidity()&&status)status.innerHTML='Online delivery is not connected yet. Please email <a href="mailto:Sales@barrush.com.ng">Sales@barrush.com.ng</a> or call <a href="https://wa.me/2347030572492" target="_blank" rel="noopener">+234 703 057 2492</a>.';
   });
 }
 initContactDetails();
